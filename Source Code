@@ -8,3 +8,14 @@ int main()
 int wage , extra , gain;
 int shift1 , shift2 , shift3;
 int lastshift1 , lastshift2 , lastshift3;
+
+shift1=30;
+shift2=35;
+shift3=40;
+// in this case as you can see to get paid more you have to work more than 30 hour.//
+cout<<"Enter your wage:"<<" ";
+cin>>wage;
+cout<<"Enter your extra hour u work:"<<" ";
+cin<<extra;
+/*right here we know how much is our wage and how much we work extra.
+by using this data we can make if else loop and calculate our net gain.*/
