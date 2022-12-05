@@ -1,0 +1,10 @@
+#include <iostream>
+#include <cmath>
+#include <math.h>
+
+using namespace std;
+int main()
+{
+int wage , extra , gain;
+int shift1 , shift2 , shift3;
+int lastshift1 , lastshift2 , lastshift3;
