@@ -38,4 +38,16 @@ gain=wage+lastshift2;
 cout<<"Total gain:"<<" "<<gain<<endl;
 cout<<"--------------------------";
 
+else if(extra>20){
+    lastshift3=extra*shif32;
+cout<<"--------------------------"<<endl;
+cout<<"Extra gain:"<<" "<<lastshift3<<endl;
+cout<<"--------------------------"<<endl;
+gain=wage+lastshift3;
+cout<<"Total gain:"<<" "<<gain<<endl;
+cout<<"--------------------------";
+}else{
+cout<<"WRONG NUMBER!";
+}
+
 
